@@ -53,21 +53,21 @@ class Home extends PureComponent {
 		return (
 			<div className="home">
 				<PowerRankings/>
-				<div className="stats-wrapper">
-					<Button className={"league-button" + (this.state.league === "league1" ? " league-button-selected" : "")}
-							loading={false} onClick={() => this.handleLeagueChange("league1")}>Shmurda Premier League</Button>
-					<Button className={"league-button" + (this.state.league === "league2" ? " league-button-selected" : "")}
-							loading={false} onClick={() => this.handleLeagueChange("league2")}>Shmurda Ligue 2</Button>
-					{this.state.league ?
-						<Select
-							mode="multiple"
-							className="team-select"
-							placeholder="Please select teams to view their stats"
-							onChange={this.handleTeamChange}
-						>
-							{this.getTeams()}
-						</Select> : ""}
-				</div>
+				{/*<div className="stats-wrapper">*/}
+					{/*<Button className={"league-button" + (this.state.league === "league1" ? " league-button-selected" : "")}*/}
+							{/*loading={false} onClick={() => this.handleLeagueChange("league1")}>Shmurda Premier League</Button>*/}
+					{/*<Button className={"league-button" + (this.state.league === "league2" ? " league-button-selected" : "")}*/}
+							{/*loading={false} onClick={() => this.handleLeagueChange("league2")}>Shmurda Ligue 2</Button>*/}
+					{/*{this.state.league ?*/}
+						{/*<Select*/}
+							{/*mode="multiple"*/}
+							{/*className="team-select"*/}
+							{/*placeholder="Please select teams to view their stats"*/}
+							{/*onChange={this.handleTeamChange}*/}
+						{/*>*/}
+							{/*{this.getTeams()}*/}
+						{/*</Select> : ""}*/}
+				{/*</div>*/}
 			</div>
 		);
 	}

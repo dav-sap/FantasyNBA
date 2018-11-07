@@ -1,0 +1,79 @@
+.power-rankings-container {
+	max-width: 420px;
+
+
+	color: white;
+	margin-top:15px;
+	/*background-color: white;*/
+}
+.power-rankings-body {
+	padding: 25px 20px 10px 10px;
+	font-family: Heebo, 'Alef', sans-serif;
+	max-height: 550px;
+	overflow-y: auto;
+}
+
+.team-title {
+	position: relative;
+	margin-bottom: 10px;
+}
+.team-title .name, .record {
+	text-align: center;
+}
+.team-title .rank {
+	font-size: 35px;
+	position: absolute;
+	right:0;
+	top: 50%;
+	transform: translateY(-50%);
+	direction: rtl;
+}
+.team-info {
+	border: 1px solid rgb(220, 221, 223);
+	padding: 10px;
+	font-size: 13px;
+}
+.prevrank-cell {
+	font-size: 15px;
+}
+table.team-info-table {
+	width: 100%;
+	border-collapse:separate;
+}
+.arrow-img {
+	margin-left:2px;
+}
+.team-analysis {
+	margin-top:8px;
+	direction: rtl;
+	margin-bottom:25px;
+}
+.analysis-author {
+	font-style: italic;
+}
+.arrow-img {
+	margin-left: 4px;
+	position: relative;
+	top: -1px;
+}
+
+.team > hr {
+	background-color: #a5a6a7;
+	border: 0;
+	color: #a5a6a7;
+	height: 1px;
+	margin-bottom: 26px;
+}
+.power-rankings-logo {
+	height:  130px;
+	margin: auto;
+	display: block;
+}
+@media only screen and (max-width: 850px) {
+	.power-rankings-logo {
+		height:  90px;
+	}
+}
+/*table.team-info-table > tbody >tr> th, table.team-info-table > thead >tr> th {*/
+	/*margin-left: 9px;*/
+/*}*/

@@ -9,7 +9,13 @@ const  Team = (props) => {
 			<TeamTitle rank={props.rank} record={props.record} name={props.name}/>
 			<TeamInfo {...props}/>
 			<div className="team-analysis">
-				{props.text} <span className="analysis-author">{props.author ? "--" + props.author: ""}</span>
+				{props.text_2 ? <div>{props.text_2}</div> : ""}
+				{props.author ?
+				<div className="author-title">
+					{`הטור של ${props.author}`}
+				</div> : ""}
+
+				{props.text}
 			</div>
 			<hr/>
 		</div>

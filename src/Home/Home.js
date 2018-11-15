@@ -68,6 +68,9 @@ class Home extends PureComponent {
 							{/*{this.getTeams()}*/}
 						{/*</Select> : ""}*/}
 				{/*</div>*/}
+				{/*<iframe src="https://www2.cbox.ws/box/?boxid=2411841&boxtag=DoHlKP" width="100%" height="450"*/}
+						{/*allowTransparency="yes" allow="autoplay" frameBorder="0" marginHeight="0" marginWidth="0"*/}
+						{/*scrolling="auto"></iframe>*/}
 			</div>
 		);
 	}

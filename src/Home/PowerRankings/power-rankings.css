@@ -74,6 +74,10 @@ table.team-info-table {
 		height:  90px;
 	}
 }
+.author-title {
+	font-size: 18px;
+	font-weight: 500;
+}
 /*table.team-info-table > tbody >tr> th, table.team-info-table > thead >tr> th {*/
 	/*margin-left: 9px;*/
 /*}*/

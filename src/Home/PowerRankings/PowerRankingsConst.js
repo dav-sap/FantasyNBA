@@ -412,4 +412,6 @@ const WEEK_4 = [
 	},
 
 ]
-export {WEEK_1, WEEK_2, WEEK_3, WEEK_4}
+
+const POWER_RANKINGS_BY_WEEK = [WEEK_1, WEEK_2, WEEK_3, WEEK_4]
+export {POWER_RANKINGS_BY_WEEK}

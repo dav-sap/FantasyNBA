@@ -11,6 +11,16 @@
 	font-family: Heebo, 'Alef', sans-serif;
 	max-height: 550px;
 	overflow-y: auto;
+	color: white;
+}
+.ant-tabs-nav {
+	color: white;
+}
+.ant-tabs-bar {
+	border:none;
+}
+.ant-tabs-tab-arrow-show {
+	color: white;
 }
 
 .team-title {

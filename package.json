@@ -10,7 +10,9 @@
   },
   "scripts": {
     "start": "PORT=3377 react-scripts start",
+    "prebuild": "rm -Rf ../yahoo-fantasy-server/build",
     "build": "react-scripts build",
+    "postbuild":"mv build ../yahoo-fantasy-server/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
